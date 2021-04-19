@@ -8,12 +8,25 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 <style>
-    
+    input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0; 
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+}
+
 </style>
 <body>
     <!--<img src="img/superbox/superbox-thumb-26.jpg" />-->
 	<h4>Full Gallery.</h4>
 <input type="number">
+<input type="tel">
+<input type="text">
     <div class="superbox col-sm-12">
 		<div class="superbox-list">
 			<div>
